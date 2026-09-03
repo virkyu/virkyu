@@ -1,16 +1,36 @@
-## Hi there 👋
+![Wzium](https://img.shields.io/badge/student-true-green) ![frauds.pro](https://img.shields.io/badge/owner%20of-frauds.pro-blue) ![Discord](https://img.shields.io/badge/discord-virkyuu-%237289DA?logo=discord&logoColor=white)
 
-<!--
-**virkyu/virkyu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### 👋 Hello
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```javascript
+class Virkyu {
+    nick: string;
+    age: string; // I wanna be mysterious
+    hobby: string[];
+    languages: string[];
+    learning: string[]; // I would be too lazy probably to change it - last update 03/09/2026
+    lazy: boolean;
+
+    constructor() {
+        this.nick = "Virkyu";
+        this.age = "1?";
+        this.hobby = ["coding", "design", "raging at isaac :("];
+        this.languages = ["js", "ts", "php/2", "py/3", "java/3", "C#/2", "C++/3"];
+        this.learning = ["react", "express", "nextjs", "cybersecurity (dreamjob)"];
+
+        this.lazy = true;
+    }
+
+    greet(): string {
+        return this.lazy ? "o/" : "HIII, how are you doing? :))";
+    }
+
+    info(): string {
+        return "Feel free to let me know about any bugs, im just a human";
+    }
+}
+
+const nerd = new Virkyu();
+console.log(nerd.greet());
+```
